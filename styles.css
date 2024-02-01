@@ -1,3 +1,18 @@
+.banner {
+    background-color: #f1f2f5;
+    color: #050505;
+    text-align: center;
+    padding: 10px;
+}
+
+.top-banner {
+    margin-bottom: 20px; 
+}
+
+.bottom-banner {
+    margin-top: 20px; 
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
