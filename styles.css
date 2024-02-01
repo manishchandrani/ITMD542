@@ -2,6 +2,68 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1D1D1D; 
-    color: #fafbfc; 
+    background-color: #1D1D1D;
+    color: #fafbfc;
+}
+
+header {
+    background-color: #1D1D1D;
+    color: #f9fafb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2, h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1D1D1D;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #f5f1f1;
+}
+
+.right-column {
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2272FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    margin-bottom: 20px;
 }
